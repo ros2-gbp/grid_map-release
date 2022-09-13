@@ -1,0 +1,115 @@
+ros-humble-grid-map-sdf (2.0.0-1bullseye) bullseye; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 12 Sep 2022 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.6.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 13 Oct 2019 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.6.1-1bullseye) bullseye; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Feb 2019 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.6.0-1bullseye) bullseye; urgency=high
+
+  * Release of new implementation to convert grid maps to signed distance fields.
+  * Contributors: Takahiro Miki, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 23 Nov 2017 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.5.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 10:54:00 -0000
+
+ros-humble-grid-map-sdf (1.5.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 02:25:00 -0000
+
+ros-humble-grid-map-sdf (1.5.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 17 Jul 2017 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.4.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 23 Jan 2017 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.4.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 22 Oct 2016 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.4.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 21 Aug 2016 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.3.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 11:35:00 -0000
+
+ros-humble-grid-map-sdf (1.3.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 07:41:00 -0000
+
+ros-humble-grid-map-sdf (1.3.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 25 Apr 2016 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.2.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 02 Mar 2016 15:00:00 -0000
+
+ros-humble-grid-map-sdf (1.1.3-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 17:55:26 +0900
+
+ros-humble-grid-map-sdf (1.1.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:38:00 -0000
+
+ros-humble-grid-map-sdf (1.1.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 04:51:00 -0000
+
+ros-humble-grid-map-sdf (1.1.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 07 Jan 2016 15:00:00 -0000
+
+
