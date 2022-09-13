@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-msgs
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-humble-ament-cmake, ros-humble-grid-map-cmake-helpers, ros-humble-rclcpp, ros-humble-rosidl-default-generators, ros-std-msgs, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgeometry-msgs-dev, libstd-msgs-dev, python3-geometry-msgs, python3-std-msgs, ros-geometry-msgs, ros-humble-rclcpp, ros-humble-rosidl-default-generators, ros-std-msgs, ros-humble-ros-workspace
+Description: Definition of the multi-layered grid map message type.
