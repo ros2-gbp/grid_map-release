@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-cv
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libcv-bridge-dev, libsensor-msgs-dev, pluginlib-dev, python3-cv-bridge, python3-sensor-msgs, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-filters, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-core, ros-humble-rclcpp, ros-sensor-msgs, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-cv
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcv-bridge-dev, libsensor-msgs-dev, pluginlib-dev, python3-cv-bridge, python3-sensor-msgs, ros-humble-filters, ros-humble-grid-map-core, ros-humble-rclcpp, ros-sensor-msgs, ros-humble-ros-workspace
+Description: Conversions between grid maps and OpenCV images.
