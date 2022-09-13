@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-demos
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libcv-bridge-dev, libgeometry-msgs-dev, libsensor-msgs-dev, python3-cv-bridge, python3-geometry-msgs, python3-sensor-msgs, ros-geometry-msgs, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-core, ros-humble-grid-map-cv, ros-humble-grid-map-filters, ros-humble-grid-map-loader, ros-humble-grid-map-msgs, ros-humble-grid-map-octomap, ros-humble-grid-map-ros, ros-humble-grid-map-rviz-plugin, ros-humble-grid-map-visualization, ros-humble-octomap-msgs, ros-humble-rclcpp, ros-sensor-msgs, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcv-bridge-dev, libgeometry-msgs-dev, libsensor-msgs-dev, python3-cv-bridge, python3-geometry-msgs, python3-opencv, python3-sensor-msgs, ros-geometry-msgs, ros-humble-grid-map-core, ros-humble-grid-map-cv, ros-humble-grid-map-filters, ros-humble-grid-map-loader, ros-humble-grid-map-msgs, ros-humble-grid-map-octomap, ros-humble-grid-map-ros, ros-humble-grid-map-rviz-plugin, ros-humble-grid-map-visualization, ros-humble-octomap-msgs, ros-humble-octomap-rviz-plugins, ros-humble-octomap-server, ros-humble-rclcpp, ros-humble-rclpy, ros-humble-rviz2, ros-sensor-msgs, ros-humble-ros-workspace
+Description: Demo nodes to demonstrate the usage of the grid map library.
