@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-ros
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-core, ros-humble-grid-map-cv, ros-humble-grid-map-msgs, ros-humble-nav-msgs, ros-humble-nav2-msgs, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-rosbag2-cpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-cv-bridge, ros-humble-geometry-msgs, ros-humble-grid-map-core, ros-humble-grid-map-cv, ros-humble-grid-map-msgs, ros-humble-nav-msgs, ros-humble-nav2-msgs, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-rosbag2-cpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: ROS interface for the grid map library to manage two-dimensional grid maps with multiple data layers.
