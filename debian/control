@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-core, ros-humble-grid-map-costmap-2d, ros-humble-grid-map-cv, ros-humble-grid-map-demos, ros-humble-grid-map-filters, ros-humble-grid-map-loader, ros-humble-grid-map-msgs, ros-humble-grid-map-octomap, ros-humble-grid-map-pcl, ros-humble-grid-map-ros, ros-humble-grid-map-rviz-plugin, ros-humble-grid-map-sdf, ros-humble-grid-map-visualization, ros-humble-ros-workspace
+Description: Meta-package for the universal grid map library.
