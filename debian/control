@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-loader
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-loader
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-ros-workspace
+Description: Loading and publishing grid maps from bag files.
