@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-octomap
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libdynamicedt3d-dev, liboctomap-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-core, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-octomap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libdynamicedt3d-dev, liboctomap-dev, ros-humble-grid-map-core, ros-humble-ros-workspace
+Description: Conversions between grid maps and OctoMap types.

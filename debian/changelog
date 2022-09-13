@@ -1,0 +1,48 @@
+ros-humble-grid-map-octomap (2.0.0-1bullseye) bullseye; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 12 Sep 2022 15:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 13 Oct 2019 15:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.1-1bullseye) bullseye; urgency=high
+
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Feb 2019 15:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 23 Nov 2017 15:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.0-1bullseye) bullseye; urgency=high
+
+  * Added new package for octomap to grid map conversion.
+  * Contributors: Jeff Delmerico, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 17 Jul 2017 15:00:00 -0000
+
+
