@@ -1,0 +1,12 @@
+Source: ros-iron-grid-map-msgs
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-geometry-msgs, ros-iron-grid-map-cmake-helpers, ros-iron-rclcpp, ros-iron-rosidl-default-generators, ros-iron-std-msgs, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-iron-grid-map-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-rosidl-default-generators, ros-iron-std-msgs, ros-iron-ros-workspace
+Description: Definition of the multi-layered grid map message type.
