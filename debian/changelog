@@ -1,0 +1,87 @@
+ros-iron-grid-map-rviz-plugin (2.1.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 07 Nov 2022 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (2.0.0-1bullseye) bullseye; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 12 Sep 2022 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.6.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 13 Oct 2019 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.6.1-1bullseye) bullseye; urgency=high
+
+  * Made FrameManager and MessageFilterDisplay ROS version dependent.
+  * Update to tf2 MessageFilters
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Marco Sütterlin, Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Feb 2019 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.6.0-1bullseye) bullseye; urgency=high
+
+  * Added option to rviz plugin to hide color faces.
+  * Fixed bug for RViz plugin.
+  * Fixing cpp-check warnings and errors.
+  * Contributors: Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 23 Nov 2017 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.5.2-1bullseye) bullseye; urgency=high
+
+  * Fixes error in grid_map_rviz_plugin when rendering lines.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.5.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.5.0-1bullseye) bullseye; urgency=high
+
+  * Improved visualization to support triangles in all directions.
+  * Fixes transparency issue for grid maps in RViz. (#68 <https://github.com/anybotics/grid_map/issues/68>).
+  * Fixed package XML tag.
+  * Contributors: Perry Franklin, Stefan Fabian, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 17 Jul 2017 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.4.2-1bullseye) bullseye; urgency=high
+
+  * Cleanup thanks to message traits.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 23 Jan 2017 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.4.1-1bullseye) bullseye; urgency=high
+
+  * Added functionality to display color from grid map layer.
+  * Added better handling of basic layers in Grid Map RViz plugin.
+  * Added functionality to invert rainbow colors in RViz plugin.
+  * Contributors: Philipp Kruesi, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 22 Oct 2016 15:00:00 -0000
+
+ros-iron-grid-map-rviz-plugin (1.4.0-1bullseye) bullseye; urgency=high
+
+  * Added new package grid_map_rviz_plugin to visualize grid map layers as 3d surfaces.
+  * Updated documentation.
+  * Contributors: Péter Fankhauser, Philipp Kruesi
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 21 Aug 2016 15:00:00 -0000
+
+
