@@ -1,0 +1,12 @@
+Source: ros-iron-grid-map
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-iron-grid-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-grid-map-cmake-helpers, ros-iron-grid-map-core, ros-iron-grid-map-costmap-2d, ros-iron-grid-map-cv, ros-iron-grid-map-demos, ros-iron-grid-map-filters, ros-iron-grid-map-loader, ros-iron-grid-map-msgs, ros-iron-grid-map-octomap, ros-iron-grid-map-pcl, ros-iron-grid-map-ros, ros-iron-grid-map-rviz-plugin, ros-iron-grid-map-sdf, ros-iron-grid-map-visualization, ros-iron-ros-workspace
+Description: Meta-package for the universal grid map library.
