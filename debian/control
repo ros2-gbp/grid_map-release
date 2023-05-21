@@ -1,0 +1,12 @@
+Source: ros-iron-grid-map-sdf
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-iron-ament-cmake, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-grid-map-cmake-helpers, ros-iron-grid-map-core, ros-iron-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-iron-grid-map-sdf
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-iron-grid-map-core, ros-iron-ros-workspace
+Description: Generates signed distance fields from grid maps.
