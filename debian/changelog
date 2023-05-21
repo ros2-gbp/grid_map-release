@@ -1,0 +1,71 @@
+ros-iron-grid-map-pcl (2.1.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 07 Nov 2022 15:00:00 -0000
+
+ros-iron-grid-map-pcl (2.0.0-1bullseye) bullseye; urgency=high
+
+  * ci: fix tests in grid map pcl
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Add height of cluster with the most points method
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 12 Sep 2022 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.6.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 13 Oct 2019 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.6.1-1bullseye) bullseye; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Feb 2019 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.6.0-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 23 Nov 2017 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.5.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.5.1-1bullseye) bullseye; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.5.0-1bullseye) bullseye; urgency=high
+
+  * Improved efficiency of mesh conversion.
+  * Contributors: Alex Millane
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 17 Jul 2017 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.4.2-1bullseye) bullseye; urgency=high
+
+  * Addressing C++ compiler warnings.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 23 Jan 2017 15:00:00 -0000
+
+ros-iron-grid-map-pcl (1.4.1-1bullseye) bullseye; urgency=high
+
+  * Added new grid_map_pcl package to convert from PCL mesh to grid map.
+  * Contributors: Dominic Jud
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 22 Oct 2016 15:00:00 -0000
+
+
