@@ -7,6 +7,9 @@ unreleased (2021-06-24)
 * Replaced pcl_ros dependency with PCL
 * Contributors: Matthew Young (Trimble Inc) 
 
+2.1.0 (2022-11-08)
+------------------
+
 2.0.0 (2022-09-13)
 ------------------
 * ci: fix tests in grid map pcl
