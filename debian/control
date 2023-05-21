@@ -1,0 +1,12 @@
+Source: ros-iron-grid-map-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-grid-map-cmake-helpers, ros-iron-grid-map-msgs, ros-iron-grid-map-ros, ros-iron-rclcpp, ros-iron-rviz-common, ros-iron-rviz-ogre-vendor, ros-iron-rviz-rendering, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-grid-map-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-iron-grid-map-msgs, ros-iron-grid-map-ros, ros-iron-rclcpp, ros-iron-rviz-common, ros-iron-rviz-ogre-vendor, ros-iron-rviz-rendering, ros-iron-ros-workspace
+Description: RViz plugin for displaying grid map messages.
