@@ -1,0 +1,12 @@
+Source: ros-iron-grid-map-filters
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libtbb-dev, ros-iron-ament-cmake, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-filters, ros-iron-grid-map-cmake-helpers, ros-iron-grid-map-core, ros-iron-grid-map-msgs, ros-iron-grid-map-ros, ros-iron-pluginlib, ros-iron-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-iron-grid-map-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtbb-dev, ros-iron-filters, ros-iron-grid-map-core, ros-iron-grid-map-msgs, ros-iron-grid-map-ros, ros-iron-pluginlib, ros-iron-ros-workspace
+Description: Processing grid maps as a sequence of ROS filters.
