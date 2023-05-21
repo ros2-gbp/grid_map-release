@@ -1,0 +1,12 @@
+Source: ros-iron-grid-map-demos
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-cv-bridge, ros-iron-geometry-msgs, ros-iron-grid-map-cmake-helpers, ros-iron-grid-map-core, ros-iron-grid-map-cv, ros-iron-grid-map-filters, ros-iron-grid-map-loader, ros-iron-grid-map-msgs, ros-iron-grid-map-octomap, ros-iron-grid-map-ros, ros-iron-grid-map-rviz-plugin, ros-iron-grid-map-visualization, ros-iron-octomap-msgs, ros-iron-rclcpp, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-iron-grid-map-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-opencv, ros-iron-cv-bridge, ros-iron-geometry-msgs, ros-iron-grid-map-core, ros-iron-grid-map-cv, ros-iron-grid-map-filters, ros-iron-grid-map-loader, ros-iron-grid-map-msgs, ros-iron-grid-map-octomap, ros-iron-grid-map-ros, ros-iron-grid-map-rviz-plugin, ros-iron-grid-map-visualization, ros-iron-octomap-msgs, ros-iron-octomap-rviz-plugins, ros-iron-octomap-server, ros-iron-rclcpp, ros-iron-rclpy, ros-iron-rviz2, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Description: Demo nodes to demonstrate the usage of the grid map library.
