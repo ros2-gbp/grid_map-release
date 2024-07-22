@@ -1,0 +1,159 @@
+ros-jazzy-grid-map-filters (2.2.0-1noble) noble; urgency=high
+
+  * Merge pull request #458 <https://github.com/ANYbotics/grid_map/issues/458> from ANYbotics/ci-temp-skip-octomap-server
+    build: treat several build issues on rolling
+  * apply uncrustify except for EigenLab.hpp
+  * Merge pull request #443 <https://github.com/ANYbotics/grid_map/issues/443> from Ryanf55/update-maintainers
+    Add Ryan as maintainer, remove Steve
+  * Add Ryan as maintainer, remove Steve
+  * Merge pull request #419 <https://github.com/ANYbotics/grid_map/issues/419> from Ryanf55/stop-using-CMAKE_COMPILER_IS_GNUCXX
+    Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
+  * Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
+    * Switch to CMAKE_CXX_COMPILER_ID
+    * https://cmake.org/cmake/help/latest/variable/CMAKE_LANG_COMPILER_ID.html
+  * Contributors: Ryan, Ryan Friedman, wep21
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Jul 2024 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (2.1.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 07 Nov 2022 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (2.0.0-1noble) noble; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 12 Sep 2022 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.6.2-1noble) noble; urgency=high
+
+  * Update MinInRadiusFilter.cpp
+  * Contributors: Sascha Wirges
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 13 Oct 2019 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.6.1-1noble) noble; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Feb 2019 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.6.0-1noble) noble; urgency=high
+
+  * Implemented a set of new filters:
+  * Math expression filter based on EigenLab
+  * Sliding window math expression filter
+  * Normal vector and curvature filter
+  * Color map, normal color, light intensity filter, added color blending mode
+  * BufferNormalizerFilter
+  * Contributors: Péter Fankhauser, Tanja Baumann
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 23 Nov 2017 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.5.2-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.5.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.5.0-1noble) noble; urgency=high
+
+  * Smaller cleanups for consistency.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 17 Jul 2017 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.4.2-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 23 Jan 2017 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.4.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 22 Oct 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.4.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 21 Aug 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.3.3-1noble) noble; urgency=high
+
+  * Release for ROS Kinetic.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 09 May 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.3.2-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 09 May 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.3.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 09 May 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.3.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 25 Apr 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.2.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 02 Mar 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.1.3-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 10 Jan 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.1.2-1noble) noble; urgency=high
+
+  * Should fix errors on build server regarding Eigen3 and visualization_msgs dependencies.
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 10 Jan 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.1.1-1noble) noble; urgency=high
+
+  * Changes to CMakeLists.txt to enable compatibility with Ubuntu Saucy.
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 10 Jan 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.1.0-1noble) noble; urgency=high
+
+  * added installation instructions in CMakeLists
+  * general improvements and bugfixes
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 07 Jan 2016 15:00:00 -0000
+
+ros-jazzy-grid-map-filters (1.0.0-1noble) noble; urgency=high
+
+  * release for Springer ROS Book Chapter
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 19 Nov 2015 15:00:00 -0000
+
+
