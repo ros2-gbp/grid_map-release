@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-pcl
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libyaml-cpp-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-core, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-pcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.12, libpcl-common1.12, libpcl-dev, libpcl-features1.12, libpcl-filters1.12, libpcl-io1.12, libpcl-kdtree1.12, libpcl-keypoints1.12, libpcl-ml1.12, libpcl-octree1.12, libpcl-outofcore1.12, libpcl-people1.12, libpcl-recognition1.12, libpcl-registration1.12, libpcl-sample-consensus1.12, libpcl-search1.12, libpcl-segmentation1.12, libpcl-stereo1.12, libpcl-surface1.12, libpcl-tracking1.12, libpcl-visualization1.12, libyaml-cpp-dev, ros-humble-grid-map-core, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-rclcpp, ros-humble-rcutils, ros-humble-ros-workspace
+Description: Conversions between grid maps and Point Cloud Library (PCL) types.

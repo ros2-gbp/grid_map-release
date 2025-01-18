@@ -1,0 +1,79 @@
+ros-humble-grid-map-pcl (2.0.1-1jammy) jammy; urgency=high
+
+  * Merge pull request #445 <https://github.com/Ryanf55/grid_map/issues/445> from ANYbotics/mergify/bp/humble/pr-443
+    Add Ryan as maintainer, remove Steve (backport #443 <https://github.com/Ryanf55/grid_map/issues/443>)
+  * Add Ryan as maintainer, remove Steve
+    (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+  * Merge pull request #437 <https://github.com/Ryanf55/grid_map/issues/437> from ANYbotics/mergify/bp/humble/pr-423
+    Split PCL deps for dev and runtime (backport #423 <https://github.com/Ryanf55/grid_map/issues/423>)
+  * Split PCL deps to dev and runtime
+    (cherry picked from commit 220def8b3a3f941b3f2f4f5280012326a89007ed)
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-humble-grid-map-pcl (2.0.0-1jammy) jammy; urgency=high
+
+  * ci: fix tests in grid map pcl
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Add height of cluster with the most points method
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-humble-grid-map-pcl (1.6.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-humble-grid-map-pcl (1.6.1-1jammy) jammy; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-humble-grid-map-pcl (1.6.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-humble-grid-map-pcl (1.5.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-pcl (1.5.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-pcl (1.5.0-1jammy) jammy; urgency=high
+
+  * Improved efficiency of mesh conversion.
+  * Contributors: Alex Millane
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-pcl (1.4.2-1jammy) jammy; urgency=high
+
+  * Addressing C++ compiler warnings.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-humble-grid-map-pcl (1.4.1-1jammy) jammy; urgency=high
+
+  * Added new grid_map_pcl package to convert from PCL mesh to grid map.
+  * Contributors: Dominic Jud
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+
