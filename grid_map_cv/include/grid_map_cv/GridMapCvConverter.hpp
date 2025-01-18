@@ -12,13 +12,21 @@
 #include <grid_map_core/grid_map_core.hpp>
 
 // OpenCV
-#include <cv_bridge/cv_bridge.h>
+#include <cv_bridge/cv_bridge.hpp>
 
 // STD
 #include <iostream>
 
 #include <string>
 #include <limits>
+
+// GCC 13 has false positive warnings around stringop-overflow.
+// Suppress them until this is fixed in upstream gcc. See
+// https://gcc.gnu.org/bugzilla/show_bug.cgi?id=114758 for more details.
+#if defined(__GNUC__) && !defined(__clang__)
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wstringop-overflow"
+#endif
 
 namespace grid_map
 {

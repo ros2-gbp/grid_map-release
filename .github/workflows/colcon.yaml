@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - 'rolling'
+    - 'jazzy'
     - 'iron'
     - 'humble'
   pull_request:
@@ -15,18 +16,25 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {rosdistro: 'humble', container: 'ros:humble'}
+          - {rosdistro: 'jazzy', container: 'ros:jazzy'}
     container: ${{ matrix.config.container }}
     steps:
     - uses: actions/checkout@v4
       with:
         path: src/grid_map
+    - name: Pull in repos with vcs
+      run: |
+        apt-get update
+        vcs import --shallow --skip-existing --input grid_map/tools/ros2_dependencies.repos
+      shell: bash
+      working-directory: src
+      if: ${{ matrix.config.rosdistro == 'rolling' }}
     - name: Install Dependencies with Rosdep
       run: |
         apt update
         rosdep update
         source /opt/ros/${{matrix.config.rosdistro}}/setup.bash
-        rosdep install --from-paths src --ignore-src -y --skip-keys "slam_toolbox turtlebot3_gazebo gazebo_ros_pkgs"
+        rosdep install --from-paths src --ignore-src -y --skip-keys "slam_toolbox turtlebot3_gazebo gazebo_ros_pkgs octomap_server"
       shell: bash
     - name: Colcon Build (Release)
       run: |
