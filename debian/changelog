@@ -1,0 +1,89 @@
+ros-jazzy-grid-map-pcl (2.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-jazzy-grid-map-pcl (2.2.0-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #443 <https://github.com/ANYbotics/grid_map/issues/443> from Ryanf55/update-maintainers
+    Add Ryan as maintainer, remove Steve
+  * Add Ryan as maintainer, remove Steve
+  * Merge pull request #423 <https://github.com/ANYbotics/grid_map/issues/423> from Ryanf55/export-pcl-deps-correctly
+    Split PCL deps for dev and runtime
+  * Split PCL deps to dev and runtime
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 23 Jul 2024 06:00:00 -0000
+
+ros-jazzy-grid-map-pcl (2.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 08 Nov 2022 07:00:00 -0000
+
+ros-jazzy-grid-map-pcl (2.0.0-1bookworm) bookworm; urgency=high
+
+  * ci: fix tests in grid map pcl
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Add height of cluster with the most points method
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.6.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.6.1-1bookworm) bookworm; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.6.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.5.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.5.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.5.0-1bookworm) bookworm; urgency=high
+
+  * Improved efficiency of mesh conversion.
+  * Contributors: Alex Millane
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.4.2-1bookworm) bookworm; urgency=high
+
+  * Addressing C++ compiler warnings.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-pcl (1.4.1-1bookworm) bookworm; urgency=high
+
+  * Added new grid_map_pcl package to convert from PCL mesh to grid map.
+  * Contributors: Dominic Jud
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+

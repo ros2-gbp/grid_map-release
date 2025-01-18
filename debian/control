@@ -1,0 +1,12 @@
+Source: ros-jazzy-grid-map-pcl
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libyaml-cpp-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-grid-map-cmake-helpers, ros-jazzy-grid-map-core, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-rclcpp, ros-jazzy-rcutils, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-grid-map-pcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.13, libpcl-common1.13, libpcl-dev, libpcl-features1.13, libpcl-filters1.13, libpcl-io1.13, libpcl-kdtree1.13, libpcl-keypoints1.13, libpcl-ml1.13, libpcl-octree1.13, libpcl-outofcore1.13, libpcl-people1.13, libpcl-recognition1.13, libpcl-registration1.13, libpcl-sample-consensus1.13, libpcl-search1.13, libpcl-segmentation1.13, libpcl-stereo1.13, libpcl-surface1.13, libpcl-tracking1.13, libpcl-visualization1.13, libyaml-cpp-dev, ros-jazzy-grid-map-core, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-rclcpp, ros-jazzy-rcutils, ros-jazzy-ros-workspace
+Description: Conversions between grid maps and Point Cloud Library (PCL) types.
