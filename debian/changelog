@@ -1,0 +1,69 @@
+ros-jazzy-grid-map-octomap (2.2.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-jazzy-grid-map-octomap (2.2.0-1noble) noble; urgency=high
+
+  * Merge pull request #443 <https://github.com/ANYbotics/grid_map/issues/443> from Ryanf55/update-maintainers
+    Add Ryan as maintainer, remove Steve
+  * Add Ryan as maintainer, remove Steve
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 23 Jul 2024 06:00:00 -0000
+
+ros-jazzy-grid-map-octomap (2.1.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 08 Nov 2022 07:00:00 -0000
+
+ros-jazzy-grid-map-octomap (2.0.0-1noble) noble; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-jazzy-grid-map-octomap (1.6.2-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-jazzy-grid-map-octomap (1.6.1-1noble) noble; urgency=high
+
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-jazzy-grid-map-octomap (1.6.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-octomap (1.5.2-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-octomap (1.5.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-octomap (1.5.0-1noble) noble; urgency=high
+
+  * Added new package for octomap to grid map conversion.
+  * Contributors: Jeff Delmerico, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+
