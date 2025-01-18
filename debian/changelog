@@ -1,0 +1,173 @@
+ros-jazzy-grid-map-demos (2.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (2.2.0-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #443 <https://github.com/ANYbotics/grid_map/issues/443> from Ryanf55/update-maintainers
+    Add Ryan as maintainer, remove Steve
+  * Add Ryan as maintainer, remove Steve
+  * Merge pull request #419 <https://github.com/ANYbotics/grid_map/issues/419> from Ryanf55/stop-using-CMAKE_COMPILER_IS_GNUCXX
+    Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
+  * Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
+    * Switch to CMAKE_CXX_COMPILER_ID
+    * https://cmake.org/cmake/help/latest/variable/CMAKE_LANG_COMPILER_ID.html
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 23 Jul 2024 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (2.1.0-1bookworm) bookworm; urgency=high
+
+  * fix: change cv_bridge.h -> .hpp (#376 <https://github.com/ANYbotics/grid_map/issues/376>)
+  * Contributors: Iván López Broceño
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 08 Nov 2022 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (2.0.0-1bookworm) bookworm; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.6.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.6.1-1bookworm) bookworm; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.6.0-1bookworm) bookworm; urgency=high
+
+  * Fixed compatibility issue with OpenCV 3 (#140 <https://github.com/anybotics/grid_map/issues/140>).
+  * Fixing cpp-check warnings and errors.
+  * Fixed dependencies for grid_map_demos.
+  * Updated terrain for filters demo.
+  * Updated filter demo chain.
+  * Contributors: Perry Franklin, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.5.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.5.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.5.0-1bookworm) bookworm; urgency=high
+
+  * Added demo for octomap to grid map conversion.
+  * Updated installation for demos.
+  * General performance improvements, cleanups, and reformatting.
+  * Contributors: Jeff Delmerico, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.4.2-1bookworm) bookworm; urgency=high
+
+  * Addressing C++ compiler warnings.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.4.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.4.0-1bookworm) bookworm; urgency=high
+
+  * Added Grid Map RViz plugin to RViz configuration.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Aug 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.3.3-1bookworm) bookworm; urgency=high
+
+  * Release for ROS Kinetic.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.3.2-1bookworm) bookworm; urgency=high
+
+  * Updated dependency to OpenCV for compatibility with ROS Kinetic and OpenCV 2/3.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.3.1-1bookworm) bookworm; urgency=high
+
+  * Updated grid map loader demo.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.3.0-1bookworm) bookworm; urgency=high
+
+  * Added new demonstrators for OpenCV based operations.
+  * Resolving build errors for OpenCV.
+  * Added comment on iterator performance (#45 <https://github.com/anybotics/grid_map/issues/45>).
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Apr 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.2.0-1bookworm) bookworm; urgency=high
+
+  * New iterator_benchmark demo to exemplify the usage of the iterators and their computational performance.
+  * Added new move_demo to illustrate the difference between the move and setPosition method.
+  * Contributors: Péter Fankhauser, Christos Zalidis, Daniel Stonier
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 03 Mar 2016 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.1.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.1.2-1bookworm) bookworm; urgency=high
+
+  * Should fix errors on build server regarding Eigen3 and visualization_msgs dependencies.
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.1.1-1bookworm) bookworm; urgency=high
+
+  * Changes to CMakeLists.txt to enable compatibility with Ubuntu Saucy.
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.1.0-1bookworm) bookworm; urgency=high
+
+  * added installation instructions in CMakeLists
+  * updated demo for new ellipse iterator tool
+  * general improvements and bugfixes
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 08 Jan 2016 07:00:00 -0000
+
+ros-jazzy-grid-map-demos (1.0.0-1bookworm) bookworm; urgency=high
+
+  * release for Springer ROS Book Chapter
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 20 Nov 2015 07:00:00 -0000
+
+

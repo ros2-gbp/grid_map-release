@@ -1,0 +1,12 @@
+Source: ros-jazzy-grid-map-demos
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-grid-map-cmake-helpers, ros-jazzy-grid-map-core, ros-jazzy-grid-map-cv, ros-jazzy-grid-map-filters, ros-jazzy-grid-map-loader, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-octomap, ros-jazzy-grid-map-ros, ros-jazzy-grid-map-rviz-plugin, ros-jazzy-grid-map-visualization, ros-jazzy-octomap-msgs, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-grid-map-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-opencv, ros-jazzy-cv-bridge, ros-jazzy-geometry-msgs, ros-jazzy-grid-map-core, ros-jazzy-grid-map-cv, ros-jazzy-grid-map-filters, ros-jazzy-grid-map-loader, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-octomap, ros-jazzy-grid-map-ros, ros-jazzy-grid-map-rviz-plugin, ros-jazzy-grid-map-visualization, ros-jazzy-octomap-msgs, ros-jazzy-octomap-rviz-plugins, ros-jazzy-octomap-server, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-rviz2, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: Demo nodes to demonstrate the usage of the grid map library.
