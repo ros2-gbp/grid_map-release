@@ -1,0 +1,142 @@
+ros-humble-grid-map-msgs (2.0.1-1jammy) jammy; urgency=high
+
+  * Merge pull request #445 <https://github.com/Ryanf55/grid_map/issues/445> from ANYbotics/mergify/bp/humble/pr-443
+    Add Ryan as maintainer, remove Steve (backport #443 <https://github.com/Ryanf55/grid_map/issues/443>)
+  * Add Ryan as maintainer, remove Steve
+    (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-humble-grid-map-msgs (2.0.0-1jammy) jammy; urgency=high
+
+  * Initial ROS2 port
+  * Contributors: Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.6.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.6.1-1jammy) jammy; urgency=high
+
+  * Merge remote-tracking branch 'origin/master' into fix/melodic
+  * Merge pull request #198 <https://github.com/ANYbotics/grid_map/issues/198> from ANYbotics/feature/extend_process_file_srv
+    Extend ProcessFile.srv to include topic_name field.
+  * Restore single topic_name field, as discussed with Peter.
+  * Update ProcessFile.srv
+  * Extend ProcessFile.srv to include topic_name field.
+  * Updated author e-mail address.
+  * Contributors: Marco Tranzatto, MarcoSuetterlin, Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.6.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.5.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.5.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.5.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.4.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.4.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.4.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Aug 2016 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.3.3-1jammy) jammy; urgency=high
+
+  * Release for ROS Kinetic.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.3.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.3.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Apr 2016 06:00:00 -0000
+
+ros-humble-grid-map-msgs (1.2.0-1jammy) jammy; urgency=high
+
+  * [grid_map_msgs] package exports
+  * Contributors: Daniel Stonier
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 03 Mar 2016 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.1.3-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.1.2-1jammy) jammy; urgency=high
+
+  * Should fix errors on build server regarding Eigen3 and visualization_msgs dependencies.
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.1.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.1.0-1jammy) jammy; urgency=high
+
+  * added new srv definition for processing of grid map files
+  * general improvements and bugfixes
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 08 Jan 2016 07:00:00 -0000
+
+ros-humble-grid-map-msgs (1.0.0-1jammy) jammy; urgency=high
+
+  * release for Springer ROS Book Chapter
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 20 Nov 2015 07:00:00 -0000
+
+
