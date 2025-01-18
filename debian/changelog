@@ -1,0 +1,105 @@
+ros-jazzy-grid-map-rviz-plugin (2.2.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (2.2.0-1noble) noble; urgency=high
+
+  * Merge pull request #443 <https://github.com/ANYbotics/grid_map/issues/443> from Ryanf55/update-maintainers
+    Add Ryan as maintainer, remove Steve
+  * Add Ryan as maintainer, remove Steve
+  * Merge pull request #422 <https://github.com/ANYbotics/grid_map/issues/422> from jtaveau/feature/deprecation_ogre_vector3_h
+    update deprecated ogre header file
+  * update header file
+  * Contributors: JTaveau, Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 23 Jul 2024 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (2.1.0-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 08 Nov 2022 07:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (2.0.0-1noble) noble; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.6.2-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.6.1-1noble) noble; urgency=high
+
+  * Made FrameManager and MessageFilterDisplay ROS version dependent.
+  * Update to tf2 MessageFilters
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Marco Sütterlin, Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.6.0-1noble) noble; urgency=high
+
+  * Added option to rviz plugin to hide color faces.
+  * Fixed bug for RViz plugin.
+  * Fixing cpp-check warnings and errors.
+  * Contributors: Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.5.2-1noble) noble; urgency=high
+
+  * Fixes error in grid_map_rviz_plugin when rendering lines.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.5.1-1noble) noble; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.5.0-1noble) noble; urgency=high
+
+  * Improved visualization to support triangles in all directions.
+  * Fixes transparency issue for grid maps in RViz. (#68 <https://github.com/anybotics/grid_map/issues/68>).
+  * Fixed package XML tag.
+  * Contributors: Perry Franklin, Stefan Fabian, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.4.2-1noble) noble; urgency=high
+
+  * Cleanup thanks to message traits.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.4.1-1noble) noble; urgency=high
+
+  * Added functionality to display color from grid map layer.
+  * Added better handling of basic layers in Grid Map RViz plugin.
+  * Added functionality to invert rainbow colors in RViz plugin.
+  * Contributors: Philipp Kruesi, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-rviz-plugin (1.4.0-1noble) noble; urgency=high
+
+  * Added new package grid_map_rviz_plugin to visualize grid map layers as 3d surfaces.
+  * Updated documentation.
+  * Contributors: Péter Fankhauser, Philipp Kruesi
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Aug 2016 06:00:00 -0000
+
+
