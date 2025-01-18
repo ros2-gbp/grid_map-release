@@ -1,0 +1,12 @@
+Source: ros-humble-grid-map-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-grid-map-cmake-helpers, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-rclcpp, ros-humble-rviz-common, ros-humble-rviz-ogre-vendor, ros-humble-rviz-rendering, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-grid-map-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, libqt5widgets5, ros-humble-grid-map-msgs, ros-humble-grid-map-ros, ros-humble-rclcpp, ros-humble-rviz-common, ros-humble-rviz-ogre-vendor, ros-humble-rviz-rendering, ros-humble-ros-workspace
+Description: RViz plugin for displaying grid map messages.

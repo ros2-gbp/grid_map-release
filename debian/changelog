@@ -1,0 +1,95 @@
+ros-humble-grid-map-rviz-plugin (2.0.1-1jammy) jammy; urgency=high
+
+  * Merge pull request #445 <https://github.com/Ryanf55/grid_map/issues/445> from ANYbotics/mergify/bp/humble/pr-443
+    Add Ryan as maintainer, remove Steve (backport #443 <https://github.com/Ryanf55/grid_map/issues/443>)
+  * Add Ryan as maintainer, remove Steve
+    (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+  * Merge pull request #432 <https://github.com/Ryanf55/grid_map/issues/432> from ANYbotics/mergify/bp/humble/pr-422
+    update deprecated ogre header file (backport #422 <https://github.com/Ryanf55/grid_map/issues/422>)
+  * update header file
+    (cherry picked from commit a56647cc481ed7f2abe13b2ace5c1081cbd971d4)
+  * Contributors: JTaveau, Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (2.0.0-1jammy) jammy; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.6.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.6.1-1jammy) jammy; urgency=high
+
+  * Made FrameManager and MessageFilterDisplay ROS version dependent.
+  * Update to tf2 MessageFilters
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Marco Sütterlin, Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.6.0-1jammy) jammy; urgency=high
+
+  * Added option to rviz plugin to hide color faces.
+  * Fixed bug for RViz plugin.
+  * Fixing cpp-check warnings and errors.
+  * Contributors: Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.5.2-1jammy) jammy; urgency=high
+
+  * Fixes error in grid_map_rviz_plugin when rendering lines.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.5.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.5.0-1jammy) jammy; urgency=high
+
+  * Improved visualization to support triangles in all directions.
+  * Fixes transparency issue for grid maps in RViz. (#68 <https://github.com/anybotics/grid_map/issues/68>).
+  * Fixed package XML tag.
+  * Contributors: Perry Franklin, Stefan Fabian, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.4.2-1jammy) jammy; urgency=high
+
+  * Cleanup thanks to message traits.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.4.1-1jammy) jammy; urgency=high
+
+  * Added functionality to display color from grid map layer.
+  * Added better handling of basic layers in Grid Map RViz plugin.
+  * Added functionality to invert rainbow colors in RViz plugin.
+  * Contributors: Philipp Kruesi, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+ros-humble-grid-map-rviz-plugin (1.4.0-1jammy) jammy; urgency=high
+
+  * Added new package grid_map_rviz_plugin to visualize grid map layers as 3d surfaces.
+  * Updated documentation.
+  * Contributors: Péter Fankhauser, Philipp Kruesi
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Aug 2016 06:00:00 -0000
+
+
