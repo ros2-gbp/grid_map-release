@@ -1,0 +1,136 @@
+ros-jazzy-grid-map-sdf (2.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-jazzy-grid-map-sdf (2.2.0-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #443 <https://github.com/ANYbotics/grid_map/issues/443> from Ryanf55/update-maintainers
+    Add Ryan as maintainer, remove Steve
+  * Add Ryan as maintainer, remove Steve
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 23 Jul 2024 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (2.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 08 Nov 2022 07:00:00 -0000
+
+ros-jazzy-grid-map-sdf (2.0.0-1bookworm) bookworm; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.6.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.6.1-1bookworm) bookworm; urgency=high
+
+  * Updated host changes.
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.6.0-1bookworm) bookworm; urgency=high
+
+  * Release of new implementation to convert grid maps to signed distance fields.
+  * Contributors: Takahiro Miki, Péter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.5.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 26 Jul 2017 01:54:00 -0000
+
+ros-jazzy-grid-map-sdf (1.5.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 17:25:00 -0000
+
+ros-jazzy-grid-map-sdf (1.5.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.4.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.4.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.4.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Aug 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.3.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 11 May 2016 02:35:00 -0000
+
+ros-jazzy-grid-map-sdf (1.3.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 22:41:00 -0000
+
+ros-jazzy-grid-map-sdf (1.3.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Apr 2016 06:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.2.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 03 Mar 2016 07:00:00 -0000
+
+ros-jazzy-grid-map-sdf (1.1.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 17:55:26 -0700
+
+ros-jazzy-grid-map-sdf (1.1.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 23:38:00 -0000
+
+ros-jazzy-grid-map-sdf (1.1.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 20:51:00 -0000
+
+ros-jazzy-grid-map-sdf (1.1.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 08 Jan 2016 07:00:00 -0000
+
+
