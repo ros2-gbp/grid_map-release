@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - 'rolling'
+    - 'jazzy'
     - 'iron'
     - 'humble'
   pull_request:
@@ -15,7 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {rosdistro: 'rolling', container: 'ros:rolling'}
+          - {rosdistro: 'jazzy', container: 'ros:jazzy'}
     container: ${{ matrix.config.container }}
     steps:
     - uses: actions/checkout@v4
@@ -27,6 +28,7 @@ jobs:
         vcs import --shallow --skip-existing --input grid_map/tools/ros2_dependencies.repos
       shell: bash
       working-directory: src
+      if: ${{ matrix.config.rosdistro == 'rolling' }}
     - name: Install Dependencies with Rosdep
       run: |
         apt update
@@ -43,7 +45,7 @@ jobs:
       run: |
         source /opt/ros/${{matrix.config.rosdistro}}/setup.bash
         source install/setup.bash
-        colcon test --return-code-on-test-failure --paths src/grid_map/* --event-handlers=console_cohesion+
+        colcon test --paths src/grid_map/* --event-handlers=console_cohesion+
         colcon test-result --all --verbose
       shell: bash
 
