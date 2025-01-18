@@ -1,0 +1,142 @@
+ros-humble-grid-map-cmake-helpers (2.0.1-1jammy) jammy; urgency=high
+
+  * Merge pull request #445 <https://github.com/Ryanf55/grid_map/issues/445> from ANYbotics/mergify/bp/humble/pr-443
+    Add Ryan as maintainer, remove Steve (backport #443 <https://github.com/Ryanf55/grid_map/issues/443>)
+  * Add Ryan as maintainer, remove Steve
+    (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+  * Merge pull request #429 <https://github.com/Ryanf55/grid_map/issues/429> from ANYbotics/mergify/bp/humble/pr-420
+    Enfore C++17 (backport #420 <https://github.com/Ryanf55/grid_map/issues/420>)
+  * Enfore C++17
+    (cherry picked from commit acdee6ee66e4c1672fe0df157716a9767850332a)
+  * Merge pull request #427 <https://github.com/Ryanf55/grid_map/issues/427> from ANYbotics/mergify/bp/humble/pr-419
+    Stop using deprecated CMAKE_COMPILER_IS_GNUCXX (backport #419 <https://github.com/Ryanf55/grid_map/issues/419>)
+  * Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
+    * Switch to CMAKE_CXX_COMPILER_ID
+    * https://cmake.org/cmake/help/latest/variable/CMAKE_LANG_COMPILER_ID.html
+    (cherry picked from commit 661aac270a5496cb334e53f25f10c036699e6801)
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (2.0.0-1jammy) jammy; urgency=high
+
+  * Initial ROS2 port
+  * Contributors: Steve Macenski
+  * Update for rolliing (#296 <https://github.com/ANYbotics/grid_map/issues/296>)
+    Co-authored-by: Francisco Martin Rico <mailto:fmrico@gmail.com>
+  * Initial ROS2 port
+  * added grid_map_cmake_helpers maintainers
+  * changed grid_map_common to grid_map_cmake_helpers
+  * Contributors: Daisuke Nishimatsu, Marwan Taher, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.6.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 24 Oct 2019 06:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.6.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.6.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.5.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 26 Jul 2017 01:54:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.5.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 17:25:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.5.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.4.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 24 Jan 2017 07:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.4.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 23 Oct 2016 06:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.4.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 22 Aug 2016 06:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.3.3-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 11 May 2016 02:35:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.3.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 10 May 2016 22:41:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Apr 2016 06:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.2.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 03 Mar 2016 07:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.1.3-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 17:55:26 -0700
+
+ros-humble-grid-map-cmake-helpers (1.1.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 23:38:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.1.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 11 Jan 2016 20:51:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.1.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 08 Jan 2016 07:00:00 -0000
+
+ros-humble-grid-map-cmake-helpers (1.0.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 20 Nov 2015 07:00:00 -0000
+
+
