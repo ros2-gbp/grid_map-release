@@ -7,18 +7,17 @@ unreleased (2021-06-24)
 * Replaced pcl_ros dependency with PCL
 * Contributors: Matthew Young (Trimble Inc) 
 
-2.2.0 (2024-07-23)
+2.0.1 (2025-01-18)
 ------------------
-* Merge pull request `#443 <https://github.com/ANYbotics/grid_map/issues/443>`_ from Ryanf55/update-maintainers
-  Add Ryan as maintainer, remove Steve
+* Merge pull request `#445 <https://github.com/Ryanf55/grid_map/issues/445>`_ from ANYbotics/mergify/bp/humble/pr-443
+  Add Ryan as maintainer, remove Steve (backport `#443 <https://github.com/Ryanf55/grid_map/issues/443>`_)
 * Add Ryan as maintainer, remove Steve
-* Merge pull request `#423 <https://github.com/ANYbotics/grid_map/issues/423>`_ from Ryanf55/export-pcl-deps-correctly
-  Split PCL deps for dev and runtime
+  (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+* Merge pull request `#437 <https://github.com/Ryanf55/grid_map/issues/437>`_ from ANYbotics/mergify/bp/humble/pr-423
+  Split PCL deps for dev and runtime (backport `#423 <https://github.com/Ryanf55/grid_map/issues/423>`_)
 * Split PCL deps to dev and runtime
+  (cherry picked from commit 220def8b3a3f941b3f2f4f5280012326a89007ed)
 * Contributors: Ryan, Ryan Friedman
-
-2.1.0 (2022-11-08)
-------------------
 
 2.0.0 (2022-09-13)
 ------------------

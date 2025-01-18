@@ -15,24 +15,18 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - {rosdistro: 'rolling', container: 'ros:rolling'}
+          - {rosdistro: 'humble', container: 'ros:humble'}
     container: ${{ matrix.config.container }}
     steps:
     - uses: actions/checkout@v4
       with:
         path: src/grid_map
-    - name: Pull in repos with vcs
-      run: |
-        apt-get update
-        vcs import --shallow --skip-existing --input grid_map/tools/ros2_dependencies.repos
-      shell: bash
-      working-directory: src
     - name: Install Dependencies with Rosdep
       run: |
         apt update
         rosdep update
         source /opt/ros/${{matrix.config.rosdistro}}/setup.bash
-        rosdep install --from-paths src --ignore-src -y --skip-keys "slam_toolbox turtlebot3_gazebo gazebo_ros_pkgs octomap_server"
+        rosdep install --from-paths src --ignore-src -y --skip-keys "slam_toolbox turtlebot3_gazebo gazebo_ros_pkgs"
       shell: bash
     - name: Colcon Build (Release)
       run: |
@@ -43,7 +37,7 @@ jobs:
       run: |
         source /opt/ros/${{matrix.config.rosdistro}}/setup.bash
         source install/setup.bash
-        colcon test --return-code-on-test-failure --paths src/grid_map/* --event-handlers=console_cohesion+
+        colcon test --paths src/grid_map/* --event-handlers=console_cohesion+
         colcon test-result --all --verbose
       shell: bash
 

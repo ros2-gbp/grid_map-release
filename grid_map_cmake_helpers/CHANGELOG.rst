@@ -2,23 +2,23 @@
 Changelog for package grid_map_cmake_helpers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.0 (2024-07-23)
+2.0.1 (2025-01-18)
 ------------------
-* Merge pull request `#443 <https://github.com/ANYbotics/grid_map/issues/443>`_ from Ryanf55/update-maintainers
-  Add Ryan as maintainer, remove Steve
+* Merge pull request `#445 <https://github.com/Ryanf55/grid_map/issues/445>`_ from ANYbotics/mergify/bp/humble/pr-443
+  Add Ryan as maintainer, remove Steve (backport `#443 <https://github.com/Ryanf55/grid_map/issues/443>`_)
 * Add Ryan as maintainer, remove Steve
-* Merge pull request `#419 <https://github.com/ANYbotics/grid_map/issues/419>`_ from Ryanf55/stop-using-CMAKE_COMPILER_IS_GNUCXX
-  Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
-* Merge pull request `#420 <https://github.com/ANYbotics/grid_map/issues/420>`_ from Ryanf55/enfore-cpp17
-  Enfore C++17
+  (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+* Merge pull request `#429 <https://github.com/Ryanf55/grid_map/issues/429>`_ from ANYbotics/mergify/bp/humble/pr-420
+  Enfore C++17 (backport `#420 <https://github.com/Ryanf55/grid_map/issues/420>`_)
 * Enfore C++17
+  (cherry picked from commit acdee6ee66e4c1672fe0df157716a9767850332a)
+* Merge pull request `#427 <https://github.com/Ryanf55/grid_map/issues/427>`_ from ANYbotics/mergify/bp/humble/pr-419
+  Stop using deprecated CMAKE_COMPILER_IS_GNUCXX (backport `#419 <https://github.com/Ryanf55/grid_map/issues/419>`_)
 * Stop using deprecated CMAKE_COMPILER_IS_GNUCXX
   * Switch to CMAKE_CXX_COMPILER_ID
   * https://cmake.org/cmake/help/latest/variable/CMAKE_LANG_COMPILER_ID.html
+  (cherry picked from commit 661aac270a5496cb334e53f25f10c036699e6801)
 * Contributors: Ryan, Ryan Friedman
-
-2.1.0 (2022-11-08)
-------------------
 
 2.0.0 (2022-09-13)
 ------------------

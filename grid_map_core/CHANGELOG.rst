@@ -2,22 +2,22 @@
 Changelog for package grid_map_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.0 (2024-07-23)
+2.0.1 (2025-01-18)
 ------------------
-* Merge pull request `#458 <https://github.com/ANYbotics/grid_map/issues/458>`_ from ANYbotics/ci-temp-skip-octomap-server
-  build: treat several build issues on rolling
-* suppress warning due to gcc13 bug
-* Merge pull request `#443 <https://github.com/ANYbotics/grid_map/issues/443>`_ from Ryanf55/update-maintainers
-  Add Ryan as maintainer, remove Steve
+* Fix UB in SpiralIterator::operator++ (`#481 <https://github.com/Ryanf55/grid_map/issues/481>`_) (`#489 <https://github.com/Ryanf55/grid_map/issues/489>`_)
+  * Calling pop_back on an iterator past the end is UB
+  (cherry picked from commit 74dbbc83ad695c09bc60dcc856aa8a75741311a9)
+  Co-authored-by: Ryan <25047695+Ryanf55@users.noreply.github.com>
+* Merge pull request `#445 <https://github.com/Ryanf55/grid_map/issues/445>`_ from ANYbotics/mergify/bp/humble/pr-443
+  Add Ryan as maintainer, remove Steve (backport `#443 <https://github.com/Ryanf55/grid_map/issues/443>`_)
 * Add Ryan as maintainer, remove Steve
-* Merge pull request `#404 <https://github.com/ANYbotics/grid_map/issues/404>`_ from Ryanf55/bugfix-403-cmake
-  grid_map_core: Use ament_export_targets and improve eigen linkage
+  (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+* Merge pull request `#434 <https://github.com/Ryanf55/grid_map/issues/434>`_ from ANYbotics/mergify/bp/humble/pr-404
+  grid_map_core: Use ament_export_targets and improve eigen linkage (backport `#404 <https://github.com/Ryanf55/grid_map/issues/404>`_)
 * Update ament to latest recommendations
   * Fixes include errors in grid_map_geo ros2 port
-* Contributors: Ryan, Ryan Friedman, wep21
-
-2.1.0 (2022-11-08)
-------------------
+  (cherry picked from commit 4f32682271add9477a4566596c1997053d59f345)
+* Contributors: Ryan, Ryan Friedman, mergify[bot]
 
 2.0.0 (2022-09-13)
 ------------------
