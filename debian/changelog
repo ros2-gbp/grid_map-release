@@ -1,0 +1,58 @@
+ros-humble-grid-map-octomap (2.0.1-1jammy) jammy; urgency=high
+
+  * Merge pull request #445 <https://github.com/Ryanf55/grid_map/issues/445> from ANYbotics/mergify/bp/humble/pr-443
+    Add Ryan as maintainer, remove Steve (backport #443 <https://github.com/Ryanf55/grid_map/issues/443>)
+  * Add Ryan as maintainer, remove Steve
+    (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sat, 18 Jan 2025 07:00:00 -0000
+
+ros-humble-grid-map-octomap (2.0.0-1jammy) jammy; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 13 Sep 2022 06:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 14 Oct 2019 06:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.1-1jammy) jammy; urgency=high
+
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Wed, 27 Feb 2019 07:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.0-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 24 Nov 2017 07:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.2-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.1-1jammy) jammy; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 25 Jul 2017 06:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.0-1jammy) jammy; urgency=high
+
+  * Added new package for octomap to grid map conversion.
+  * Contributors: Jeff Delmerico, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 18 Jul 2017 06:00:00 -0000
+
+
