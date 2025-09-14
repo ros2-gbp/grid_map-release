@@ -1,0 +1,12 @@
+Source: ros-kilted-grid-map-visualization
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-grid-map-cmake-helpers, ros-kilted-grid-map-core, ros-kilted-grid-map-msgs, ros-kilted-grid-map-ros, ros-kilted-nav-msgs, ros-kilted-rclcpp, ros-kilted-sensor-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-kilted-grid-map-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-grid-map-core, ros-kilted-grid-map-msgs, ros-kilted-grid-map-ros, ros-kilted-nav-msgs, ros-kilted-rclcpp, ros-kilted-sensor-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Description: Configurable tool to visualize grid maps in RViz.
