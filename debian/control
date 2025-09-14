@@ -1,0 +1,12 @@
+Source: ros-kilted-grid-map
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-kilted-grid-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-grid-map-cmake-helpers, ros-kilted-grid-map-core, ros-kilted-grid-map-costmap-2d, ros-kilted-grid-map-cv, ros-kilted-grid-map-demos, ros-kilted-grid-map-filters, ros-kilted-grid-map-loader, ros-kilted-grid-map-msgs, ros-kilted-grid-map-octomap, ros-kilted-grid-map-pcl, ros-kilted-grid-map-ros, ros-kilted-grid-map-rviz-plugin, ros-kilted-grid-map-sdf, ros-kilted-grid-map-visualization, ros-kilted-ros-workspace
+Description: Meta-package for the universal grid map library.
