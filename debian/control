@@ -1,0 +1,12 @@
+Source: ros-kilted-grid-map-pcl
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libyaml-cpp-dev, ros-kilted-ament-cmake, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-grid-map-cmake-helpers, ros-kilted-grid-map-core, ros-kilted-grid-map-msgs, ros-kilted-grid-map-ros, ros-kilted-rclcpp, ros-kilted-rcutils, ros-kilted-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-kilted-grid-map-pcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.14, libpcl-common1.14, libpcl-dev, libpcl-features1.14, libpcl-filters1.14, libpcl-io1.14, libpcl-kdtree1.14, libpcl-keypoints1.14, libpcl-ml1.14, libpcl-octree1.14, libpcl-outofcore1.14, libpcl-people1.14, libpcl-recognition1.14, libpcl-registration1.14, libpcl-sample-consensus1.14, libpcl-search1.14, libpcl-segmentation1.14, libpcl-stereo1.14, libpcl-surface1.14, libpcl-tracking1.14, libpcl-visualization1.14, libyaml-cpp-dev, ros-kilted-grid-map-core, ros-kilted-grid-map-msgs, ros-kilted-grid-map-ros, ros-kilted-rclcpp, ros-kilted-rcutils, ros-kilted-ros-workspace
+Description: Conversions between grid maps and Point Cloud Library (PCL) types.
