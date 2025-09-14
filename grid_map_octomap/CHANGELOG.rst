@@ -2,7 +2,12 @@
 Changelog for package grid_map_octomap
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.1 (2025-01-18)
+2.4.0 (2025-09-14)
+------------------
+* build: switch to use system octomap (`#483 <https://github.com/ANYbotics/grid_map/issues/483>`_)
+* Contributors: Daisuke Nishimatsu
+
+2.3.0 (2024-07-29)
 ------------------
 
 2.2.0 (2024-07-23)
