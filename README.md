@@ -1,3 +1,41 @@
+## grid_map (kilted) - 2.4.0-1
+
+The packages in the `grid_map` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -r kilted -t kilted --edit grid_map` on `Sun, 14 Sep 2025 15:42:07 -0000`
+
+These packages were released:
+- `grid_map`
+- `grid_map_cmake_helpers`
+- `grid_map_core`
+- `grid_map_costmap_2d`
+- `grid_map_cv`
+- `grid_map_demos`
+- `grid_map_filters`
+- `grid_map_loader`
+- `grid_map_msgs`
+- `grid_map_octomap`
+- `grid_map_pcl`
+- `grid_map_ros`
+- `grid_map_rviz_plugin`
+- `grid_map_sdf`
+- `grid_map_visualization`
+
+Version of package(s) in repository `grid_map`:
+
+- upstream repository: https://github.com/ANYbotics/grid_map.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## grid_map (jazzy) - 2.2.1-1
 
 The packages in the `grid_map` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy grid_map` on `Sat, 18 Jan 2025 21:09:09 -0000`
