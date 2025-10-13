@@ -7,6 +7,9 @@ unreleased (2021-06-24)
 * Replaced pcl_ros dependency with PCL
 * Contributors: Matthew Young (Trimble Inc) 
 
+2.2.2 (2025-09-23)
+------------------
+
 2.2.1 (2025-01-18)
 ------------------
 
