@@ -2,6 +2,9 @@
 Changelog for package grid_map_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.2 (2025-09-23)
+------------------
+
 2.2.1 (2025-01-18)
 ------------------
 * Fix UB in SpiralIterator::operator++ (`#481 <https://github.com/Ryanf55/grid_map/issues/481>`_) (`#487 <https://github.com/Ryanf55/grid_map/issues/487>`_)
