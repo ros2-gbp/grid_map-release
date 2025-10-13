@@ -1,8 +1,11 @@
 Format: Bloom subset of https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: grid_map
-Upstream-Contact: http://github.com/anybotics/grid_map/issues
+Upstream-Name: @(Name)
+@[if BugTracker]Upstream-Contact: @(BugTracker)@\n@[end if]@
+@[if Source]Source: @(Source)@\n@[end if]@
+@[for License, Text in Licenses]@
 
 Files: See file headers in repository for details
 Copyright: See package copyright in source code for details
-License: BSD
- See repository for full license text
+License: @(License)
+ @(Text)
+@[end for]@
