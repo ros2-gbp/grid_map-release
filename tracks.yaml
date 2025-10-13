@@ -70,7 +70,7 @@ tracks:
     last_version: 2.2.2
     name: upstream
     patches: null
-    release_inc: '1'
+    release_inc: '2'
     release_repo_url: https://github.com/ros2-gbp/grid_map-release.git
     release_tag: :{version}
     ros_distro: jazzy
