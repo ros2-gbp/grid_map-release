@@ -2,6 +2,9 @@
 Changelog for package grid_map_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.2 (2025-09-23)
+------------------
+
 2.2.1 (2025-01-18)
 ------------------
 * Add test dependency to on rosbad default plugins (`#491 <https://github.com/Ryanf55/grid_map/issues/491>`_) (`#495 <https://github.com/Ryanf55/grid_map/issues/495>`_)
