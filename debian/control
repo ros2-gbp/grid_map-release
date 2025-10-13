@@ -1,0 +1,12 @@
+Source: ros-jazzy-grid-map-loader
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-grid-map-cmake-helpers, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-grid-map-loader
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-grid-map-msgs, ros-jazzy-grid-map-ros, ros-jazzy-ros-workspace
+Description: Loading and publishing grid maps from bag files.
