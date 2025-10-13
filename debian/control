@@ -1,0 +1,12 @@
+Source: ros-jazzy-grid-map-cmake-helpers
+Section: misc
+Priority: optional
+Maintainer: Maximilian Wulf <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake-core, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-grid-map-cmake-helpers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-ament-cmake-core, ros-jazzy-ros-workspace
+Description: CMake support functionality used throughout grid_map
