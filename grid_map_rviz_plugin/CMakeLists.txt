@@ -136,6 +136,7 @@ ament_export_dependencies(
   Qt5
   rviz_common
   geometry_msgs
+  map_msgs
   nav_msgs
   rclcpp
 )
