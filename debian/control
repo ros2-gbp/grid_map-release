@@ -1,0 +1,12 @@
+Source: ros-lyrical-grid-map
+Section: misc
+Priority: optional
+Maintainer: "Maximilian Wulf" <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-grid-map
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-grid-map-cmake-helpers, ros-lyrical-grid-map-core, ros-lyrical-grid-map-costmap-2d, ros-lyrical-grid-map-cv, ros-lyrical-grid-map-demos, ros-lyrical-grid-map-filters, ros-lyrical-grid-map-loader, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-octomap, ros-lyrical-grid-map-pcl, ros-lyrical-grid-map-ros, ros-lyrical-grid-map-rviz-plugin, ros-lyrical-grid-map-sdf, ros-lyrical-grid-map-visualization, ros-lyrical-ros-workspace
+Description: Meta-package for the universal grid map library.
