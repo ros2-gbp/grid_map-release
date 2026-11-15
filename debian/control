@@ -1,0 +1,12 @@
+Source: ros-lyrical-grid-map-pcl
+Section: misc
+Priority: optional
+Maintainer: "Maximilian Wulf" <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, libyaml-cpp-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-grid-map-cmake-helpers, ros-lyrical-grid-map-core, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-rclcpp, ros-lyrical-rcutils, ros-lyrical-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-grid-map-pcl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.15, libpcl-common1.15, libpcl-dev, libpcl-features1.15, libpcl-filters1.15, libpcl-io1.15, libpcl-kdtree1.15, libpcl-keypoints1.15, libpcl-ml1.15, libpcl-octree1.15, libpcl-outofcore1.15, libpcl-people1.15, libpcl-recognition1.15, libpcl-registration1.15, libpcl-sample-consensus1.15, libpcl-search1.15, libpcl-segmentation1.15, libpcl-stereo1.15, libpcl-surface1.15, libpcl-tracking1.15, libpcl-visualization1.15, libyaml-cpp-dev, ros-lyrical-grid-map-core, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-rclcpp, ros-lyrical-rcutils, ros-lyrical-ros-workspace
+Description: Conversions between grid maps and Point Cloud Library (PCL) types.
