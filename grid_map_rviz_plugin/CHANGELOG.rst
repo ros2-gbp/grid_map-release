@@ -2,10 +2,18 @@
 Changelog for package grid_map_rviz_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.2 (2025-09-23)
+2.5.0 (2026-11-15)
 ------------------
+* fix: build on ROS 2 Lyrical (`#551 <https://github.com/ANYbotics/grid_map/issues/551>`_)
+* Contributors: Mete Fatih Cırıt
 
-2.2.1 (2025-01-18)
+2.4.0 (2025-09-14)
+------------------
+* Remove map_msgs exported dependency (`#524 <https://github.com/ANYbotics/grid_map/issues/524>`_)
+  * This is unused
+* Contributors: Ryan
+
+2.3.0 (2024-07-29)
 ------------------
 
 2.2.0 (2024-07-23)
