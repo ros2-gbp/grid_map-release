@@ -1,0 +1,12 @@
+Source: ros-lyrical-grid-map-filters
+Section: misc
+Priority: optional
+Maintainer: "Maximilian Wulf" <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), libtbb-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-filters, ros-lyrical-grid-map-cmake-helpers, ros-lyrical-grid-map-core, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-pluginlib, ros-lyrical-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-grid-map-filters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtbb-dev, ros-lyrical-filters, ros-lyrical-grid-map-core, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-pluginlib, ros-lyrical-ros-workspace
+Description: Processing grid maps as a sequence of ROS filters.
