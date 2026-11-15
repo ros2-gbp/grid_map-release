@@ -1,0 +1,12 @@
+Source: ros-lyrical-grid-map-ros
+Section: misc
+Priority: optional
+Maintainer: "Maximilian Wulf" <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-grid-map-cmake-helpers, ros-lyrical-grid-map-core, ros-lyrical-grid-map-cv, ros-lyrical-grid-map-msgs, ros-lyrical-nav-msgs, ros-lyrical-nav2-msgs, ros-lyrical-rclcpp, ros-lyrical-rcutils, ros-lyrical-rosbag2-cpp, ros-lyrical-rosbag2-storage-default-plugins <!nocheck>, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-grid-map-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-cv-bridge, ros-lyrical-geometry-msgs, ros-lyrical-grid-map-core, ros-lyrical-grid-map-cv, ros-lyrical-grid-map-msgs, ros-lyrical-nav-msgs, ros-lyrical-nav2-msgs, ros-lyrical-rclcpp, ros-lyrical-rcutils, ros-lyrical-rosbag2-cpp, ros-lyrical-sensor-msgs, ros-lyrical-std-msgs, ros-lyrical-tf2, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: ROS interface for the grid map library to manage two-dimensional grid maps with multiple data layers.
