@@ -1,0 +1,12 @@
+Source: ros-lyrical-grid-map-visualization
+Section: misc
+Priority: optional
+Maintainer: "Maximilian Wulf" <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-grid-map-cmake-helpers, ros-lyrical-grid-map-core, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: http://github.com/anybotics/grid_map
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-grid-map-visualization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-grid-map-core, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-nav-msgs, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: Configurable tool to visualize grid maps in RViz.
