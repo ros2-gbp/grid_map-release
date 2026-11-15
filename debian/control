@@ -1,0 +1,12 @@
+Source: ros-lyrical-grid-map-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: "Maximilian Wulf" <mwulf@anybotics.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-grid-map-cmake-helpers, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-rclcpp, ros-lyrical-rviz-common, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/grid_map_rviz_plugin/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-grid-map-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5t64, libqt5gui5t64, libqt5widgets5t64, ros-lyrical-grid-map-msgs, ros-lyrical-grid-map-ros, ros-lyrical-rclcpp, ros-lyrical-rviz-common, ros-lyrical-rviz-ogre-vendor, ros-lyrical-rviz-rendering, ros-lyrical-ros-workspace
+Description: RViz plugin for displaying grid map messages.
